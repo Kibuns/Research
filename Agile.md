@@ -44,10 +44,22 @@ Agile also has 12 base principles which are the following(according to the Agile
 ## Which agile methods exist and which are most popular?
 There is no general consensus on which methods are the most popular, but by comparing multiple sources it seems that the following 3 are always near the top:
 1. Scrum
+
+One of the most popular agile methodology examples is the agile scrum development methodology, which is depicted by various cycles of development. Similar to Kanban, Scrum breaks down the development phases into stages or cycles called ‘sprints’. The development time for each sprint is maximized and dedicated, thereby managing only one sprint at a time. [source](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/)
+
+
 2. KanBan
+
+The word Kanban is of Japanese origin and its meaning is linked to a time concept, “just-in-time”. In practice, the Kanban method exists in a board or table (Kanban board), divided into columns, that shows every flow of the software production. As the development evolves, the information contained in the table changes, and when a new task comes into play, a new “card” is created.
+The Kanban method requires communication and transparency so that the members of a team can know exactly at what stage the development is and can see the status of the project at any time. [source](https://www.xpand-it.com/blog/top-5-agile-methodologies/)
+
 3. Extreme Programming
 
+Extreme Programming (XP) is a methodology that emphasizes teamwork, communication, and feedback. It focuses on constant development and customer satisfaction. Similar to scrum, this method also uses sprints or short development cycles. This is developed by a team to create a productive and highly efficient environment. [source](https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/)
+
+
 ## Can you explain Scrum in full details, as it is by the book? 
+Scrum is a framework that focusses on teamwork. It got it's name from rugby, because in this sport, teamwork is also very important. Scrum encourages teams to learn through experience (training), look at succes to see what went well, and look at failure to see what can be improved, just like a rugby team. To allow for this reflection, scrum teams are encouraged to develop iteratively. Planning, sprints, standups, and retrospectives to have a continuous overview of the project, and be able to continually improve.
 
 ## Can you explain two more agile methods and name a number of interesting features in them different from Scrum? 
 
@@ -67,3 +79,7 @@ What are the most popular agile methods?
 https://www.xpand-it.com/blog/top-5-agile-methodologies/
 https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/
 https://www.itbriefcase.net/7-different-types-of-agile-methodologies
+
+What is scrum?
+https://www.jetbrains.com/youtrack/agile/scrum/?source=google&medium=cpc&campaign=14665024757&gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkcbXNMLWf-u0fU02XQs2ZE2JQDEIT8MQtQD4byec3HShYlLr-_QLVAaAu5eEALw_wcB
+https://www.atlassian.com/agile/scrum
