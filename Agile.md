@@ -59,9 +59,18 @@ Extreme Programming (XP) is a methodology that emphasizes teamwork, communicatio
 
 
 ## Can you explain Scrum in full details, as it is by the book? 
-Scrum is a framework that focusses on teamwork. It got it's name from rugby, because in this sport, teamwork is also very important. Scrum encourages teams to learn through experience (training), look at succes to see what went well, and look at failure to see what can be improved, just like a rugby team. To allow for this reflection, scrum teams are encouraged to develop iteratively. Planning, sprints, standups, and retrospectives to have a continuous overview of the project, and be able to continually improve.
+Scrum is an agile project management framework that focusses on teamwork where teams develop, deliver and sustain complex products. It got its name from rugby, because in this sport, teamwork is also very important. Scrum encourages teams to learn through experience (training), look at succes to see what went well, and look at failure to see what can be improved, just like a rugby team. To allow for this reflection, scrum teams are encouraged to develop iteratively. Planning, sprints, standups, and retrospectives are used to have a continuous overview of the project, and be able to continually improve.
+Some people use Agile and Scrum interchangeably. But they are not the same.
+Scrum is about continuously shipping value to customers. It's a framework for getting work done. While agile is a set of values and principles,
+Scrum is used for people to work and start to think in an agile way. Scrum can be used in a lot of different work environments, but is the most popular with software developers and software engineers. It's the favourite framework for these people for a few reasons. First of, as you may know, software requirements, goals and situations keep changing throughout the projects lifespan. Scrum is really good in these kinds of projects because it embraces change. the short itterations in scrum development can also reduce risks and costs.
+
 
 ## Can you explain two more agile methods and name a number of interesting features in them different from Scrum? 
+1. Kanban
+According to Atlassian:
+> Kanban is all about visualizing your work, limiting work in progress, and maximizing efficiency (or flow). Kanban teams focus on reducing the time a project takes (or user story) from start to finish. They do this by using a kanban board and continuously improving their flow of work. 
+
+> Scrum teams commit to shipping working software through set intervals called sprints. Their goal is to create learning loops to quickly gather and integrate customer feedback. Scrum teams adopt specific roles, create special artifacts, and hold regular ceremonies to keep things moving forward. Scrum is best defined in The Scrum Guide.
 
 ## Do you know how software engineers work in practice with agile methods?
 (expert interview)
@@ -83,3 +92,6 @@ https://www.itbriefcase.net/7-different-types-of-agile-methodologies
 What is scrum?
 https://www.jetbrains.com/youtrack/agile/scrum/?source=google&medium=cpc&campaign=14665024757&gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkcbXNMLWf-u0fU02XQs2ZE2JQDEIT8MQtQD4byec3HShYlLr-_QLVAaAu5eEALw_wcB
 https://www.atlassian.com/agile/scrum
+
+Kanban vs Scrum:
+https://www.atlassian.com/agile/kanban/kanban-vs-scrum
