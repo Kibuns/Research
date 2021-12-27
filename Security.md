@@ -1,7 +1,7 @@
-# How did the Log4J vulnerability become the threat that it was?
+# How did the Log4j vulnerability become the threat that it was?
 
 
-## What is Log4J?
+## What is Log4j?
 Log4J is a widely used open source java logging library originally written by Ceki Gülcü. It is used in most moderately sized Java projects. It can be used to track thing like error messages or debug messages, which are then stored or *logged*. Apache describes Log4J as follows:
 > log4j is a tool to help the programmer output log statements to a variety of output targets.In case of problems with an application, it is helpful to enable logging so that the problem can be located. With log4j it is possible to enable logging at runtime without modifying the application binary. The log4j package is designed so that log statements can remain in shipped code without incurring a high performance cost. It follows that the speed of logging (or rather not logging) is capital.
 
@@ -10,18 +10,18 @@ Log4J is a widely used open source java logging library originally written by Ce
 
 
 
-## Why is Log4Shell a big deal?
-Log4Shell (CVE-2021-44228) is a nickname for an severe vulnerability in Log4J. The vulnerability has existed since 2013, and was only "discovered" and privately disclosed to the [Apache Software Foundation](https://en.wikipedia.org/wiki/The_Apache_Software_Foundation) on 24 November 2021. According to the Common Vulnerability Scoring System ([CVSS](https://nvd.nist.gov/vuln-metrics/cvss)) this vulnerability scores a 10/10 for it's severity. This is because this vulnerability enables Remote Code Execution (RCE). Which allows hackers to be able to run any code on your machine. This is also why it is called Log4Shell, because it's almost like anyone can open a [Shell](https://datacarpentry.org/shell-genomics/01-introduction/) on any server that uses Log4J.
+## Why is Log4shell a big deal?
+Log4shell (CVE-2021-44228) is a nickname for an severe vulnerability in Log4J. The vulnerability has existed since 2013, and was only "discovered" and privately disclosed to the [Apache Software Foundation](https://en.wikipedia.org/wiki/The_Apache_Software_Foundation) on 24 November 2021. According to the Common Vulnerability Scoring System ([CVSS](https://nvd.nist.gov/vuln-metrics/cvss)) this vulnerability scores a 10/10 for it's severity. This is because this vulnerability enables Remote Code Execution (RCE). Which allows hackers to be able to run any code on your machine. This is also why it is called Log4Shell, because it's almost like anyone can open a [Shell](https://datacarpentry.org/shell-genomics/01-introduction/) on any server that uses Log4J.
 
 According to Snyk, an open source security platform, 60.8% of java projects that use Log4J use it indirectly. Which means that the project has libraries that in turn use Log4J. So even developers that can't directly see that they are using Log4J aren't safe from the vulnerability.
 ![image](https://user-images.githubusercontent.com/77112006/147350753-63dac8cd-8d3b-4244-ade5-ea239dde1b3c.png)
 source: https://snyk.io/blog/log4j-vulnerability-software-supply-chain-security-log4shell/
 
-## How does Log4Shell work?
-There are several factors, which together are responsible for the vulnerability. So first we'll have a look at some features wihtin Log4J, and then we'll illustrate how the vulnerability works.
+## How does Log4shell work?
+There are several factors, which together are responsible for the vulnerability. So first we'll have a look at some features wihtin Log4j and java, and then we'll illustrate how the vulnerability works.
 
 ### Logging expressions
-Log4J allows developers to log expressions. See the code below
+Log4j allows developers to log expressions. See the code below
 ```java
 logger.info("{} has logged in using id {}", map.get("Name"), user.getId());
 ```
@@ -31,7 +31,7 @@ In this example you're logging a string. And you're plugging the value that gets
 Java Naming and Directory Interface (JNDI) is a java feature that allows distributed applications to look up services in an abstract, resource-independent way. Allowing a developer to store java objects somewhere, and then serialize them to their JVM. This is the way that distributed java application used to work, but this way of distributing has fallen out of fashion some time ago. Nevertheless, this features still remains in java today.
 
 ### JNDI lookup while logging expressions
-In 2013, a cotributer made a change to Log4J that allowed the developer to do the above described JNDI lookups in a log message. making the code below possible
+In 2013, a cotributer made a change to Log4j that allowed the developer to do the above described JNDI lookups in a log message. making the code below possible
 ```java
 logger.info("{} has logged in using id {}", "${jndi:ldap://logconfig/example/name}", user.getId());
 ```
