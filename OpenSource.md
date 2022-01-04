@@ -18,7 +18,7 @@ Some examples of popular open source projects are:
 - ClamWinantivirus
 - WordPress content management system
 
-## Why do people work on OSS?
+## Why do people work on OSP's?
 There are multiple reasons why someone might want to work on an open source project. The most notable ones are described below
 
 ### Learning how to code
@@ -51,13 +51,38 @@ Working on an OSP requires you to communicate a lot. Be sure to be polite and av
 - Help people in a supportive way. When you correct someone, don't say "this is wrong" or "here is the answer", say something along the lines of "this is OK, but I feel like it would be better is it was more in this way..., here are some links that could help you". 
 
 ### If there's documentation, read it.
-Often, contributers on an OSP spend a lot of time documenting the project for people like you to read and get all the info you need. It would be a shame if those people or people that are familiar with the documentation constantly have to correct you on everything. Ofcourse you can ask question, but make first your answer isn't already in the documentation. Most projects have a CONTRIBUTING.md and/or a CODE_OF_CONDUCT.md. Here you can find all of the guidelines, be sure to read and follow these.
+Often, contributers on an OSP spend a lot of time documenting the project for people like you to read and get all the info you need. It would be a shame if those people or people that are familiar with the documentation constantly have to correct you on everything. Ofcourse you can ask questions, but first make sure your answer isn't already in the documentation. Most projects have a CONTRIBUTING.md and/or a CODE_OF_CONDUCT.md. Here you can find all of the guidelines, be sure to read and follow these.
 
 ### Avoid duplicate issues
+Github has a feature that allows you to search for issues. When you have a question or discover a bug, look if your queestion / bug doesn't already exist. If it does, see if you can add to the discussion in a helpfull way.
 
 ### Provide sufficient information when making a bug report
+[gomakethings](https://gomakethings.com/open-source-etiquette/) describes the following:
+> I often get bug reports that say something like, “This isn’t working on my site. What am I doing wrong?”
+That’s it. No link. No code. No additional information.
+
+It can be really frustrating when someone finds a bug but doesn't give enough information on how they found it. try to provide sceenshots, code, or anything that could be of use to another developer who wants to fix your bug. If the project is something like a plugin. Try to make a [reduced test case], which is basically a test application with as many things stripped away as possible, which still produces the bug. This can make debugging way easier.
 
 ### Make progress, not noise
+
+as the [Mozilla Development Network](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Open_source_etiquette#make_progress_not_noise) puts it:
+> Think carefully about the way you handle communication in the project — make sure it is useful, and that it doesn't make other contributor's jobs harder. Submitting pull requests to fix bugs is great, but are they truly useful, and easy to review? Filing issues and joining in other conversations is fine, but are your issues and comments on topic, or are they just adding noise?
+
+As a rule, do:
+
+- Discuss one topic per issue — it is easy to keep issues focused and productive.
+- Fix one issue per PR — it may be slightly more work for you, but it is much easier to review a single clear fix.
+- Contribute to other threads if you have a useful point to make or can answer someone else's question.
+- Ask questions using other mechanisms like chat rooms or forums if you are not sure whether something is useful or have a simple question.
+- Read the manual first to try to answer the question yourself before asking it.
+Don't:
+
+- Complicate issues by trying to discuss multiple topics at once, or making off-topic comments.
+- Try to cram multiple fixes into a single pull request. It makes it a lot harder to review, and raises suspicions (some people might think you are trying to hide some malicious - code in between the valid changes).
+- Open lots of issues asking vague questions.
+- Ask questions without trying to solve the problem yourself first.
+
+_(Cited do's and don't from [Mozilla Development Network](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Open_source_etiquette#make_progress_not_noise))_
 
 
 
