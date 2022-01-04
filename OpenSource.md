@@ -38,6 +38,11 @@ Your github might be the most important thing in your resume. So it can be reall
 - Are there any notable mistakes you made or misunderstanding you had when you first started contributing?
 - What tip(s) would you give to a beginning developer who's interested in contributing to an open source project for the first time?
 
+
+## How do you make a contribution?
+A lot of OSP's have a Contributing.md, but what are things like forking? and making pull requests? There are a lot of great sources to learn these things. But https://firstcontributions.github.io/ is what I used.
+
+
 ## What are the most important work etiquettes when working on an open-source project?
 
 ### Have a reason to be working on an OSP
@@ -85,10 +90,13 @@ Don't:
 _(Cited do's and don't from [Mozilla Development Network](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Open_source_etiquette#make_progress_not_noise))_
 
 
-
-
 ## How can you find your first open source project to work on?
-(try out this method as experiment)
+
+There are a bunch of ways for developers to find open source projects. Github has a search issue function which lets you search by certain criteria. You could for example search for "good first issue" label. This is a label people add to issues that are fit for people who are doing their first issue. A movement called [First Timers Only](https://www.firsttimersonly.com/) are pushing a label with the same name. Issues with this label should be reserved for people who have never done a pull request before. According to first timers only, developers putting this label on an issue also means:
+> I’m willing to hold your hand so you can make your first PR. This issue is a bit easier than normal. And anyone who’s already contributed to open source isn’t allowed to touch this one!
+
+[CodeTriage](https://www.codetriage.com/) allows you to pick your favorite repos to receive a different open issue in your inbox every day. This is also a great way to search for projects by language. 
+
 
 What is open source?:
 https://opensource.com/resources/what-open-source
