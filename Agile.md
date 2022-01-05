@@ -76,12 +76,20 @@ With Scrum, teams focus on shipping working software, often through set interval
 The difference between Kanban and Scrum are that Kanban teams focus on refining and visualizing their workflow while have a continuous workflow, while scrum teams focus on iteratively shipping working software to the customer in the form of sprints. They create learning loops to quickly gather and integrate customer feedback, while Kanban teams mainly focus on maximizing efficiency. Scrum teams release their working products often at the end of each sprint, while Kanban teams deliver Continuously. Kanban team also often don't have roles, while Scrum teams have product owners, scrum master, dev team, etc. 
 
 These focus points aren't exclusive to any one of these methods. It's just that one methods mainly focuses on one thing, and the other mainly focusses on other things. While the practices differ, the principles pretty much the same. Both frameworks will help you build better products and services easier.
+
 ![image](https://user-images.githubusercontent.com/77112006/148196729-608abd4b-e57c-4bcd-a9b3-81206c4c93bc.png)
 
 _Image by [Atlassian](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)_
 
 ## Do you know how software engineers work in practice with agile methods?
 (expert interview)
+
+- What do you do at your current job?
+- Which agile methods have you used during your current or previous job(s)?
+- Do you like using these agile methods?
+- Was there a time where you worked with a team that didn't follow agile principles? if so, how did this experience compare to working in a team that did?
+
+
 
 ## Which agile management tool would you recommend for use in your project and why?   
 For my individual project I used Trello, which is a simple Kanban board made by Atlassian. I used this because I had a pretty clear goal in mind, and I just wanted to focus on limiting the amount of work in progess and reduce the time the project took from start to finish. In the beginning of the semester I still wanted to find a new workflow, and the Trello Kanban board was a great way to keep improving that.
