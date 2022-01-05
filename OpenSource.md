@@ -31,9 +31,9 @@ When you work on OSS you are adding value to it. Which can be extremely rewardin
 Your github might be the most important thing in your resume. So it can be really helpfull to work on OSS to show your motivation, skills and interests. Consistently working on OSS shows your employer that you are involved.
 
 (expert interview)
-- How often do you contribute to OSS?
-- What motivated you to do your first contribution to an open source project?
-- What do you like about working on OSS?
+- How often do you contribute to an OSP(open source project)?
+- What motivated you to do your first contribution to an OSP?
+- What do you like about working on OSP's?
 - How do you choose an open source project to work on?
 - Are there any notable mistakes you made or misunderstanding you had when you first started contributing?
 - What tip(s) would you give to a beginning developer who's interested in contributing to an open source project for the first time?
