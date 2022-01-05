@@ -97,6 +97,7 @@ There are a bunch of ways for developers to find open source projects. Github ha
 
 [CodeTriage](https://www.codetriage.com/) allows you to pick your favorite repos to receive a different open issue in your inbox every day. This is also a great way to search for projects by language. 
 
+### Sources
 
 What is open source?:
 https://opensource.com/resources/what-open-source
