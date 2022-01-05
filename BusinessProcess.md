@@ -13,7 +13,7 @@ When a customer makes an order, this order will be sent to the kitchen dashboard
 
 ## Which is the process that your software supports/automates? Can you visualize it in a diagram?
 tthe process of seating people and taking their order is automated, see the diagram below:
-![image](https://user-images.githubusercontent.com/77112006/148227850-ac43accc-ab80-415a-bf41-9db0e827462a.png)
+![image](https://user-images.githubusercontent.com/77112006/148233963-05b6a1b5-3924-46ed-befb-fc4a3bb2f98d.png)
 
 
 ## Which roles are involved in this process? The work of which people (their roles) will this software influence? 
@@ -25,7 +25,7 @@ The kitchen staff receive all orders on the kitchen dashboard, which has built i
 
 ## Which steps of the process does your software support/automate? Can you visualize this in a diagram? 
 
-![image](https://user-images.githubusercontent.com/77112006/148233436-45f649c4-11a0-40c1-b683-04ad606efb6b.png)
+![image](https://user-images.githubusercontent.com/77112006/148234129-e4008f8a-5bad-4cae-997c-429f08566103.png)
 
 The first step that gets automated is the guests getting the menu on their phones by scanning a QR code and being assigned to a table. This automates the old process of giving the guests the menu when they arrive, and manually changing every menu when there is something that need to be changes (for example the price of a dish). This can now be done using the admin panel. Making a change there will immediately update the menu on every guests phone or tablet.
 
