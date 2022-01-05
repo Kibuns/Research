@@ -28,10 +28,11 @@ ACM, the committee on professional ethics lists eight principles software engine
 Technology becomes a bigger part in our lives by the day. Behind this technology are often software engineers that have designed the things you see on your screen, and the way the systems that you use work. software engineering is one of the more influencing practices we have today that is shaping society. Today, the consequences of software are often ignored by their creators, who don't want to take responsibility. When that happens, platforms like Facebook or Reddit can be sources of fake news and misinformation. Or mobile games luring children to make in-app purchases on their parents' behalf. These types of practices can be prevented when software engineers learn and actually start to care about ethics and think about the consequences of their software.
 
 ## What do you have to do as a software engineer to address ethical aspects in your work? 
-Firstly you can learn and use the eight ethical principles described above. 
-
+You can learn and use the eight ethical principles described above. The reason why things often go wrong (like in the examples about facebook and mobile apps given above) is that software engineers ignore certain points of principle 1. PUBLIC. Does using childrens tendencies as a way to make money act consistently with the public interest? No. Do platforms like facebook take full responsibility for spreading fake news (principle 1.01)? No. The reason that this principle often gets overlooked is because of greed. Not monitoring fake news saves money, letting it spread also increases user engagement. Luring children to buy your in-app purchases... makes money. As a software engineer, try your best to think about what you are doing, even when you get paid to do it. Try to design without ill intent, even if it will probably make you a lot of money. 
 
 ## How do you know that your ethical considerations match with those of other software engineers? 
+You communicate with them. Communication within this field is not only important to get the work done, but also to create an environment where everybody is on the same line. When someone makes a decision that you don't agree with, speak up. Especially when it's a superior. 
+
 
 # Culture
 
