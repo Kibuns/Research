@@ -82,13 +82,16 @@ These focus points aren't exclusive to any one of these methods. It's just that 
 _Image by [Atlassian](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)_
 
 ## Do you know how software engineers work in practice with agile methods?
-(expert interview)
+To discover this I asked someone I know who uses agile practices at their Job. His name is Renee and he works as a UX designer at Phillips.
 
 - What do you do at your current job?
+> I am a UX designer, where I design the user interfaces for certain medical devices. I work closely with the customers to discover what they want in their interfaces.
 - Which agile methods have you used during your current or previous job(s)?
+> I think what we do is mainly Lean. We also have PI plannings where we plan the following 8-10 weeks, and we also do retrospectives and standups and stuff. 
 - Do you like using these agile methods?
+> Yes and no, It's really nice to know that you have a certain goal that you can work towards together with your team. It's not so fun to try to estimate things that you have no idea how long they are going to take, which results in a lot of replanning. 
 - Was there a time where you worked with a team that didn't follow agile principles? if so, how did this experience compare to working in a team that did?
-
+> No I prettymuch have always worked with agile in mind in my field.
 
 
 ## Which agile management tool would you recommend for use in your project and why?   
