@@ -56,11 +56,32 @@ It's important that you know what cultural awareness is. It's being aware that c
 
 
 ## Can you give examples for things going not as expected when interacting with people from other cultures? What and why went differently? 
-## What is your culture? 
-## How would you  act in the future when you know that you need to communicate or collaborate with a person from another culture?
+There can be a lot of misunderstanding when people from different cultures interact. A harmless thing in one culture might mean something offensive in another. Below are some examples from [Study Abroad](https://www.studyabroad.pk/news-event/most-common-cultural-misunderstandings-4448)
+
+1. Hand Gestures
+> It is always advised to mind your body language when in an unknown company especially if you in a foreign country. Sometimes, the hand gestures you make can have different meanings than what they had in your country.
+> You must be aware of OK sign you make with your thumbs up. In Iran it is considered an insult. It’s known as a ‘bilakh’, which is a substitute to what showing middle finger means.
+
+2. Embracing
+> Embracing is one of the ways to greet in most parts of the world but not in all parts of the world. There are some countries where trying to embrace might get you embarrassed. In East Asia it’s advised to keep a respectful distance. Likewise, if you are in one of Buddhist countries, just don’t touch their head because there head is considered sacred and if someone touches it is a serious insult to them. In Qatar, men and women are forbidden to publicly embrace one another.
+
+3. Using Words Carefully:
+
+> Words can be sharper than a sword, they should always be used carefully even if you are in homeland. But on international level, they literally create a great of confusion and awkwardness. Sometimes, wrong pronunciation can cause misunderstanding and often one word may have different meaning in different cultures or countries. Here is an example of it that a friend shared on online portal.
+ 
+> “While I was studying Spanish in Mexico during the early 80’s, I once made a mistake of asking a single Mexican woman if a situation had made her “embarasada”. That of course, means pregnant, rather than embarrassed which they refer to verguenza (shame). Her shock was mirrored in my very red face, but I was feeling shame for sure; I wasn’t embarasada.”
+
+## What is your culture?
+Cultural identity can be very subjective. It can be influenced by all kinds of things, it can for example be influenced by the feeling that you belong to a group of people like you. It can even be influenced by your norms and values. I personally mainly identify with the latter. I value my personal norms and values very high when thinking about my culture. These are the things that I believe in and think are right. And it that way, I think that the people who have similar norms and values are like me, which in turn makes me feel apart of a group. However, I also think keeping an open mind to others' idea's is very important. I'm guaranteed to interact with people who have vastly different opinions than me, but that doesn't mean I shouldn't respects them. That's why I always try to be open minded of other people's opinions and cultures.
+My cultural identity is also influenced by my interests, the way I dress, and just the way I express myself to others.
+
+
+## How would you act in the future when you know that you need to communicate or collaborate with a person from another culture?
+
 
 ### Sources
 https://www.infoq.com/articles/ethical-software-engineer/
 https://www.uio.no/studier/emner/matnat/ifi/INF3700/v12/undervisningsmateriale/Software%20engeneering%20ethics.pdf
 https://au.reachout.com/articles/understanding-a-different-culture
 https://www.livescience.com/21478-what-is-culture-definition-of-culture.html
+https://www.studyabroad.pk/news-event/most-common-cultural-misunderstandings-4448
