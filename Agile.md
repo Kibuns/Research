@@ -102,19 +102,14 @@ With our group project, our team decided to use JIRA. Which is a agile managemen
 
 ### Sources
 
-what is agile development?
-https://www.agilealliance.org/agile101/
-https://www.interaction-design.org/literature/topics/agile-development
 
-what is the agile manifesto?
-https://airfocus.com/glossary/what-is-agile-manifesto/
+- Agile Alliance. (2021, 30 december). What is Agile Software Development? | Agile Alliance. Geraadpleegd op 10 januari 2022, van https://www.agilealliance.org/agile101/
+- What is Agile Development? (z.d.). The Interaction Design Foundation. Geraadpleegd op 10 januari 2022, van https://www.interaction-design.org/literature/topics/agile-development
+- airfocus. (z.d.). What Is The Agile Manifesto? Definition, History and Relevance. Geraadpleegd op 10 januari 2022, van https://airfocus.com/glossary/what-is-agile-manifesto/
 
-What are the most popular agile methods?
-https://www.xpand-it.com/blog/top-5-agile-methodologies/
-https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/
-https://www.itbriefcase.net/7-different-types-of-agile-methodologies
+- Lamelas, A. (2021, 31 maart). Top 5 main Agile methodologies: advantages and disadvantages. Xpand IT. Geraadpleegd op 10 januari 2022, van https://www.xpand-it.com/blog/top-5-agile-methodologies/
+- Sarangam, A. (2021, 1 april). 5 Important Types Of Agile Methodology (2021). Jigsaw Academy. Geraadpleegd op 10 januari 2022, van https://www.jigsawacademy.com/blogs/product-management/types-of-agile-methodology/
+- Sylvanns, D. (2021, 6 april). 7 Different Types Of Agile Methodologies. itbriefcase. Geraadpleegd op 10 januari 2022, van https://www.itbriefcase.net/7-different-types-of-agile-methodologies
 
-What is scrum?
-https://www.jetbrains.com/youtrack/agile/scrum/?source=google&medium=cpc&campaign=14665024757&gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkcbXNMLWf-u0fU02XQs2ZE2JQDEIT8MQtQD4byec3HShYlLr-_QLVAaAu5eEALw_wcB
-https://www.atlassian.com/agile/scrum
-https://www.atlassian.com/agile/kanban/kanban-vs-scrum
+- Scrum Tools for Agile Teams. (2021, 9 juni). JetBrains. Geraadpleegd op 10 januari 2022, van https://www.jetbrains.com/youtrack/agile/scrum/?source=google&medium=cpc&campaign=14665024757&gclid=Cj0KCQiA5aWOBhDMARIsAIXLlkcbXNMLWf-u0fU02XQs2ZE2JQDEIT8MQtQD4byec3HShYlLr-_QLVAaAu5eEALw_wcBhttps://www.atlassian.com/agile/scrum
+- Atlassian. (z.d.). Kanban vs Scrum. Geraadpleegd op 10 januari 2022, van https://www.atlassian.com/agile/kanban/kanban-vs-scrum
