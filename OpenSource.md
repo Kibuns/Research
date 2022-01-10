@@ -99,16 +99,9 @@ There are a bunch of ways for developers to find open source projects. Github ha
 
 ### Sources
 
-What is open source?:
-https://opensource.com/resources/what-open-source
-https://i.workana.com/glossary/what-is-open-source/
-
-How does OSS work?
-https://www.synopsys.com/glossary/what-is-open-source-software.html
-
-Why work on open source?
-https://blog.softwaremill.com/why-contribute-to-open-source-cc0b95aa82a7
-
-Etiquette:
-https://gomakethings.com/open-source-etiquette/
-https://developer.mozilla.org/en-US/docs/MDN/Contribute/Open_source_etiquette
+- What is open source? (z.d.). Opensource.Com. Geraadpleegd op 10 januari 2022, van https://opensource.com/resources/what-open-source
+- W. (2019, 29 november). Open Source: What is it, Examples and Advantages | Workana. Glossary - Workana | El Glosario Workana Explica Terminología Del Mundo Freelance, Conceptos Fundamentales Del Marketing y Los Negocios. Geraadpleegd op 10 januari 2022, van https://i.workana.com/glossary/what-is-open-source/
+- Synopsys. (z.d.). What Is Open Source Software and How Does It Work? | Synopsys. Geraadpleegd op 10 januari 2022, van https://www.synopsys.com/glossary/what-is-open-source-software.html
+- Wachal, M. (2021, 10 december). Why contribute to open source? - SoftwareMill Tech Blog. Medium. Geraadpleegd op 10 januari 2022, van https://blog.softwaremill.com/why-contribute-to-open-source-cc0b95aa82a7
+- Open Source Etiquette. (2016, 26 september). Go Make Things. Geraadpleegd op 10 januari 2022, van https://gomakethings.com/open-source-etiquette/
+- Mozilla. (2021, 15 oktober). Basic etiquette for open source projects - The MDN project | MDN. MDN Web Docs. Geraadpleegd op 10 januari 2022, van https://developer.mozilla.org/en-US/docs/MDN/Contribute/Open_source_etiquette
