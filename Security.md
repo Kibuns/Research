@@ -1,5 +1,10 @@
 # How did the Log4j vulnerability become the threat that it was?
 
+## Research Method
+Below are all the methods I used for this research. the methods will be from the [DOT Framework](https://ictresearchmethods.nl/Methods)
+The methods used are:
+- Literature Study
+- Expert Interview
 
 ## What is Log4j?
 Log4J is a widely used open source java logging library originally written by Ceki Gülcü. It is used in most moderately sized Java projects. It can be used to track thing like error messages or debug messages, which are then stored or *logged*. Apache describes Log4J as follows:
@@ -61,15 +66,27 @@ Another way that some companies used to fix it is to directly patch it. Which ma
 After the news of this exploit was made public, virtually every tech companies number one priotity was to find a way to fix it within their software, before any hacker could exploit it. The Washington post stated 
 > At Google alone, more than 500 engineers had been going through reams and reams of code to make sure it was safe, according to one employee.
 
-(expert interview)
+### Expert Interview
 
-- In what way did you get effected by the Log4j vulnerability?
-- How did you receive the first signs that something regarding security was wrong?
-- Did you have any type of protocols to follow in case of an emergency like this? If not, do you have them now?
-- What was the first things you did after you were notified of the Log4j vulnerability?
-- Did you notice any unusual amounts of stress in yourself of your coworkers while this situation unfolded?
-- What steps were taken to resolve the issue?
+1. In what way did you get effected by the Log4j vulnerability?
+> I am currently a junior at a cyber security firm that actively assisting OT vendors in locating the Log4Shell vulnerability within their product lines. 
 
+2. How did you receive the first signs that something regarding security was wrong?
+> Once CVE-2021-44228 was published and details of the RCE vulnerability were surculating within the .
+ 
+3. Did you have any type of protocols to follow in case of an emergency like this? If not, do you have them now? 
+> Yes, service patches and firewall rules were pushed out to mitigate potential exposer to corporate resources. 
+
+4. What was the first things you did after you were notified of the Log4j vulnerability?
+> Checked our own exposure, third party software and patching where possible. Eg: AWS elasticache service was affected but we were not made aware until AWS published an emergency patch to mitigate the vulnerability on their end. 
+
+5. Did you notice any unusual amounts of stress in yourself of your coworkers while this situation unfolded?
+> Yes, a sprints worth of work was sidelined to mitigate potential exposure and to address the subsequent CVE's that were released.
+
+6. What steps were taken to resolve the issue? 
+> As our exposure was very limited I am not sure. That discussion is being had at a higher level.
+
+> Firms like Synopsys (blackduck) and aDolus (FACT)  have solutions that would help mitigate this kind of issue from happening again. IMO zero days like this will probably become more prevalent before things get better.
 
 
 
