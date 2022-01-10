@@ -80,8 +80,8 @@ My cultural identity is also influenced by my interests, the way I dress, and ju
 I will try to stay open minded when I'm faced with something that I deem as "wrong", "bad" or "weird". When that happens, I could respectfully ask for clarification, or even do some research of my own. When faced with difficulties while communicating, I'll be patient with the other person and try to work it out in a professional way. I'll also listen to any complaints they may have about me, since they could also see the thing I do as "wrong, "bad" or "weird". When this happens I will try to come up with a solution that's fair for both parties.
 
 ### Sources
-Hermon, R. (2019, 27 mei). Being an Ethical Software Engineer. InfoQ. Geraadpleegd op 10 januari 2022, van https://www.infoq.com/articles/ethical-software-engineer/
-https://www.uio.no/studier/emner/matnat/ifi/INF3700/v12/undervisningsmateriale/Software%20engeneering%20ethics.pdf
-https://au.reachout.com/articles/understanding-a-different-culture
-https://www.livescience.com/21478-what-is-culture-definition-of-culture.html
-https://www.studyabroad.pk/news-event/most-common-cultural-misunderstandings-4448
+- Hermon, R. (2019, 27 mei). Being an Ethical Software Engineer. InfoQ. Geraadpleegd op 10 januari 2022, van https://www.infoq.com/articles/ethical-software-engineer/
+- Gotterbarn, D. (1990). A workshop report: Software Engineering Ethics. Journal of Systems and Software, 11(3), 215–216. https://doi.org/10.1016/0164-1212(90)90087-3
+- Understanding a different culture. (z.d.). Cultural Identity | ReachOut Australia. Geraadpleegd op 10 januari 2022, van https://au.reachout.com/articles/understanding-a-different-culture
+- Pappas, S. (2021, 15 december). What is culture? Livescience.Com. Geraadpleegd op 10 januari 2022, van https://www.livescience.com/21478-what-is-culture-definition-of-culture.html
+Study Abroad. (2017, 12 januari). Most Common Cultural Misunderstandings Around the World. studyabroad.pk. Geraadpleegd op 10 januari 2022, van https://www.studyabroad.pk/news-event/most-common-cultural-misunderstandings-4448
