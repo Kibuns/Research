@@ -1,5 +1,11 @@
 # Agile Research
 
+## Research Method
+Below are all the methods I used for this research. the methods will be from the [DOT Framework](https://ictresearchmethods.nl/Methods)
+The methods used are:
+- Literature Study
+- Expert Interview
+
 ## What does it mean agile development, the agile manifesto, the agile principles?
 According to the Interaction Design Foundation agile development is
 > an iterative software-development methodology which teams use in projects. Self-organized, cross-functional teams frequently analyze circumstances and user needs to adapt projects. Scrum teams constantly improve quality in sprints with short-term deliverables. They show Agile development in action.
