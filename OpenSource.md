@@ -39,6 +39,7 @@ When you work on OSS you are adding value to it. Which can be extremely rewardin
 Your github might be the most important thing in your resume. So it can be really helpfull to work on OSS to show your motivation, skills and interests. Consistently working on OSS shows your employer that you are involved.
 
 (expert interview)
+(I still need to find someone)
 - How often do you contribute to an OSP(open source project)?
 - What motivated you to do your first contribution to an OSP?
 - What do you like about working on OSP's?
@@ -60,7 +61,7 @@ Before you make a contribution, think about what you want to get out of it. It's
 Working on an OSP requires you to communicate a lot. Be sure to be polite and avoid offensive language during these conversations. Being kind to other contributers will result in a happier an more productive atmosphere. some ways to achieve this are:
 - Thanking the people who help you
 - Congratulating people when appropriate
-- Always respond respectfully, even if i.e. someone obviously didn't read teh documentation and you need to correct them.
+- Always respond respectfully, even if i.e. someone obviously didn't read the documentation and you need to correct them.
 - Help people in a supportive way. When you correct someone, don't say "this is wrong" or "here is the answer", say something along the lines of "this is OK, but I feel like it would be better is it was more in this way..., here are some links that could help you". 
 
 ### If there's documentation, read it.
