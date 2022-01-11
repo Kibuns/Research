@@ -1,5 +1,13 @@
 # What should a novice software developer know before their first contribution to an open source project?
 This research will give information to beginning software developers or engineers who are interested in making their first contribution to an open source project. 
+
+## Research Method
+Below are all the methods I used for this research. the methods will be from the [DOT Framework](https://ictresearchmethods.nl/Methods)
+The methods used are:
+- Literature Study
+- Expert Interview
+
+
 ## What is open source software?
 According to [opensource.com](https://opensource.com/resources/what-open-source):
 > The term open source refers to something people can modify and share because its design is publicly accessible.
